@@ -97,7 +97,7 @@ Este documento describe los pasos necesarios para configurar, ejecutar y probar 
 
 Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 
-* **Node.js:** (Se recomienda la última versión LTS) Puedes descargarlo desde [https://nodejs.org/](https://nodejs.org/)
+* **Node.js:** Puedes descargarlo desde [https://nodejs.org/](https://nodejs.org/)
 * **npm** o **yarn:** Estos son gestores de paquetes para JavaScript que vienen instalados con Node.js (npm) o puedes instalarlo por separado (yarn: [https://yarnpkg.com/](https://yarnpkg.com/)).
 * **Postman** o **Insomnia:** (Recomendado) Estas herramientas te permiten realizar solicitudes HTTP a tus rutas del backend para probarlas. Puedes descargarlos desde sus respectivos sitios web. También puedes usar `curl` en la terminal si lo prefieres.
 
