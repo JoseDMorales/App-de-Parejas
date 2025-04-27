@@ -1,4 +1,4 @@
-# Instrucciones para Ejecutar y Probar el Proyecto React
+# Instrucciones para Ejecutar y Probar el Frontend
 
 Este documento proporciona los pasos necesarios para configurar, ejecutar y probar este proyecto de React en tu entorno local.
 
@@ -87,4 +87,4 @@ Es importante asegurarse de que la aplicación funcione correctamente ejecutando
 * Si encuentras errores durante la instalación o ejecución, asegúrate de tener las versiones correctas de Node.js y npm/yarn instaladas. También puedes intentar eliminar la carpeta `node_modules` y el archivo `package-lock.json` (si usas npm) o `yarn.lock` (si usas yarn) y luego ejecutar `npm install` o `yarn install` nuevamente.
 * Consulta el archivo `package.json` para ver los scripts disponibles (además de `start` y `test`, puede haber otros como `build`, `eject`, etc.).
 
-¡Esperamos que esta guía te sea útil para poner en marcha este proyecto de React!
+¡Esperamos que esta guía te sea útil para poner en marcha este Frontend!
