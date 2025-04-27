@@ -137,25 +137,21 @@ Una vez que las dependencias se hayan instalado correctamente, puedes ejecutar e
 
 1.  **Asegúrate de estar en el directorio raíz del proyecto** (donde se encuentra el archivo `package.json`).
 
-2.  **Ejecuta el script de inicio:** La mayoría de los proyectos de Node.js tienen un script para iniciar el servidor definido en el archivo `package.json` (normalmente llamado `start` o `dev` para desarrollo). Puedes ejecutarlo con npm o yarn:
+2.  **Ejecuta el script de inicio:** La mayoría de los proyectos de Node.js tienen un script para iniciar el servidor definido en el archivo `package.json`. Puedes ejecutarlo con npm o yarn:
 
     * **Con npm:**
 
         ```bash
-        npm start
-        # o posiblemente
         npm run dev
         ```
 
     * **Con yarn:**
 
         ```bash
-        yarn start
-        # o posiblemente
         yarn dev
         ```
 
-    Este comando ejecutará el script definido en `package.json`, que generalmente inicia tu servidor backend. Revisa la salida en tu terminal para ver en qué puerto está escuchando el servidor (por ejemplo, `Servidor escuchando en el puerto 3000`).
+    Este comando ejecutará el script definido en `package.json`. Revisa la salida en tu terminal para ver en qué puerto está escuchando el servidor (`Servidor escuchando en el puerto 3000`).
 
 ## Prueba de las Rutas de la API
 
@@ -262,4 +258,4 @@ Una vez que el servidor esté en funcionamiento, puedes probar las diferentes ru
 * Si encuentras errores, revisa los logs del servidor en tu terminal para obtener más detalles sobre el problema.
 * Es posible que algunas rutas requieran autenticación (como `/profile`, `/updateUser` y `/check-subscription`). Para probar estas rutas, primero deberás obtener un token de inicio de sesión exitoso a través de la ruta `/login` y luego incluir ese token en el encabezado de tus solicitudes (generalmente como `Authorization: Bearer <tu_token>`).
 
-¡Esperamos que esta guía te sea útil para configurar y probar tu backend de Node.js!
+¡Esperamos que esta guía te sea útil para configurar y probar el backend!
